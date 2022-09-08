@@ -1,0 +1,8 @@
+div{
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    position: static;
+    background-color: blue;
+    color: white;    
+}

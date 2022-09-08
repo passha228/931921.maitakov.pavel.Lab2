@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    font-size: 14px;
+}
+
+h1{
+    background-color: #EAEAEA;
+    margin: 0;
+    padding: 5px 0 30px 5px;
+}
+
+div{
+    padding: 0 5px 5px 5px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+}
+
+a{
+    color: bisque;    
+}
+
+.leftBar {
+    float: left;
+    width: 25%;
+    background-color: #C8FC98;
+}
+.centerBar{
+    float: inherit;
+}
+
+.rightBar {
+    float: right;
+    width: 200px;
+    background-color: #FDE95E;
+}
+
+.redText {
+    color: red;
+}
