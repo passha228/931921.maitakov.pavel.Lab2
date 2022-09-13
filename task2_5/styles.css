@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrapper {
+
+}
+
+.content {
+    width: auto;
+    width: 800px;
+    resize: both;
+}
+
+.layer {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.maxWidth800 {
+    max-width: 800px;
+    width: auto;
+}
+
+.maxWidth900 {
+    max-width: 900px;
+    width: auto;
+}
+.space {
+    padding: 50px;
+} 
+
+.greenBox {
+    color: white;
+    background-color: green;
+}
+
+.blueBox {
+    background-color: blue;
+    color: white;
+}
