@@ -1,8 +1,18 @@
-div{
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+
+}
+
+.content {
     margin-left: auto;
     margin-right: auto;
-    width: 600px;
-    position: static;
     background-color: blue;
-    color: white;    
+    color: white;
+    width: auto;
+    max-width: 600px;
+    resize: both;
 }
