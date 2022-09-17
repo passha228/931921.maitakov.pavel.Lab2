@@ -1,0 +1,129 @@
+.wrapper {
+
+}
+
+.maxWidth200{
+    max-width: 200px;
+    width: auto;    
+}
+
+
+.height100 {
+        height: 100px;
+}
+
+.maxWidth500 {
+    max-width: 500px;
+    width: auto;
+}
+
+maxWidth150{
+    max-width: 150px;
+    width: auto;
+}
+
+.autoWidth {
+    max-width: 200px;
+    width: auto;
+}
+
+.greenBox {
+    background-color: green;
+}
+
+.height300{
+    height: 300px;
+}
+
+.purpleBox {
+    background-color: blueviolet;
+}
+
+.indigoBox {
+    background-color: indigo;
+}
+
+.darkredBox {
+    background-color: darkred;
+}
+
+.orangeBox {
+    background-color: peru;
+}
+
+.static {
+    position: static;
+}
+
+.relative {
+    position: relative;
+} 
+
+.fixed {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    resize: none;
+    
+}
+
+.absolute {
+    position: absolute;
+    right: 0px;
+    top: 100px;
+}
+
+.relative1 {
+    position: relative;
+    left: 30px;
+    top: -30px;
+}
+
+.layer {
+    margin: 0;
+}
+
+.content {
+    color: white;
+}
+
+.pinkBox{
+    background-color: indianred;
+} 
+
+/*
+
+.content {
+    width: auto;
+    width: 800px;
+    resize: both;
+}
+
+
+
+.maxWidth800 {
+    max-width: 800px;
+    width: auto;
+}
+
+.maxWidth900 {
+    max-width: 900px;
+    width: auto;
+}
+.space {
+    padding: 50px;
+} 
+
+.blueBorder {
+    border: solid 10px blue;
+}
+
+.greenBox {
+    color: white;
+    background-color: green;
+}
+
+.blueBox {
+    background-color: blue;
+    color: white;
+}*/
