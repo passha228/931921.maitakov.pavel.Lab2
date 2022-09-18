@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding 0;
+}
+
+body {
+    margin: 5px;
+    
+}
+
+.wrapper {    
+    border: solid 0px;
+    position: absolute;
+}
+
+.upBox {
+    height: 20%;
+}
+
+.blueBox {
+    background-color: aquamarine;
+    height: 70%;
+}
+
+.sandBox {
+    background-color: peru;
+    height: 30%;
+}
+
+.grayBox {
+    background-color: gray;
+}
+
+aside {
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    z-index: 0;
+    top: 0px;
+    left: 0px;
+}
+
+.main {
+    margin-left: 20%;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    clear: left;
+    position: fixed;
+    border: solid 0px;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgreen;
+    height: 10%;
+}
