@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding 0;
+}
+
+body {
+    margin: 5px;
+    
+}
+
+img {
+/*
+    position: relative;
+    right: 0;
+*/
+    height: 265px;
+    float: right;
+    padding: 0 0 10px 10px;
+
+}
+
+.wrapper {
+    border: solid 2px;
+    height: auto;
+    height: 265px;
+    background-color: aqua;
+}
+
+.blueBox {
+    background-color: aquamarine;
+    height: 70%;
+}
+
+.main {
+    position: static;
+}
+
+p {
+    color: black;
+}
