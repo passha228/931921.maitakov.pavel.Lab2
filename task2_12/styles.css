@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding 0;
+}
+
+body {
+    margin: 5px; 
+}
+
+.wrapper {    
+    border: solid 1px;
+}
+
+.upBox {
+    height: 20%;
+    display: flex;
+    align-items: flex-start;
+    background-color: aqua;
+}
+
+.sandBox {
+    background-color: bisque;
+    height: 30%;
+}
+
+.grayBox {
+    background-color: gray;
+}
+
+aside {
+    width: 70%;
+}
+
+.main {
+    margin: 0 5px;   
+}
+
+@media screen and (max-width: 800px) {
+    .upBox{
+        flex-direction: column;
+    }
+    .main {
+        margin: 0;
+    }
+    aside {
+        width: auto;
+    }
+}
