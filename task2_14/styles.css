@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding 0;
+}
+
+body {
+    margin: 5px;
+}
+
+main {
+    border: solid 1px;
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+   background-color: lightgray;
+}
+
+aside {
+    background-color: bisque;
+}
+
+@media screen and (max-width: 1000px){
+    aside {
+        width: 100%;
+        display: inline-block;
+        margin: 15px 0;
+    }
+    ul {
+        flex-direction: row;
+    }
+    main {
+        flex-direction: column;
+    }
+    li {
+        display: inline-block;
+        padding: 0 5px;
+    }
+}
